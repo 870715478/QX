@@ -45,7 +45,8 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
 
 
-##以下为仅QX1.05+(TF188+)可用
+#人人视频 (by@george Jiang & R)
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/rrtv.js
 
 
 #京东历史比价 (by yichahucha)
